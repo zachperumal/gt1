@@ -5,4 +5,5 @@ public class SumSquare
                        + "\nfrom 3 to 33.");
   
   ///add something
+  ///added something
 }
