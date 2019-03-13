@@ -1,14 +1,29 @@
 import java.util.Scanner;
+
 public class US_Letter {
-  public static void main(String[] args) {
-  
-  // create a scanner
-  Scanner input = new Scanner(System.in);
-  
-  // prompt user to enter weight
-  System.out.print("Enter a weight in ounces for letters to mail out: ");
- 
-  
-  
-  }
+	public static void main(String[] args) {
+		
+		// create a scanner
+		  Scanner input = new Scanner(System.in);
+		  
+		  // prompt user to enter weight
+		  
+		  double weight = 0;
+		
+		  do {
+		  
+		  System.out.println("Enter a weight in ounces for letters to mail out. ");
+		  System.out.println("When you are done, please enter -1 to finish: ");
+		  
+	  		weight = input.nextDouble();
+		  
+		  if (weight < 1 && weight > 0)
+			  System.out.println("You can use forever stamp.");
+
+		  else if (weight > 1)
+			  System.out.println("You need additional postage.");
+		  
+		  } while (weight != -1);
+		  	System.out.print("Goodbye!");
+	}	
 }
