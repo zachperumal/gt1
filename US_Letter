@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class US_Letter {
+  public static void main(String[] args) {
+  
+  // create a scanner
+  Scanner input = new Scanner(System.in);
+  
+  // prompt user to enter weight
+  System.out.print("Enter a weight in ounces for letters to mail out: ");
+ 
+  
+  
+  }
+}
