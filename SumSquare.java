@@ -6,10 +6,12 @@ public class SumSquare {
   int num = 3;
     System.out.println("Cummulation: " + (num * num) + " : " + num + " * " + num);
     num = num +3;
+    System.out.println("Cummulation: " + (num * num) + " : " + num + " * " + num);
+    num = num +3;
+    System.out.println("Cummulation: " + (num * num) + " : " + num + " * " + num);
+    num = num +3;
     
-    
-  
-  
+   
     System.out.println("Cumulation result:");
   
   ///add something
