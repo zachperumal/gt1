@@ -4,21 +4,16 @@ public class SumSquare {
     System.out.println("Your program will generate an output of Sum of Squares of multiples of 3"
                        + "\nfrom 3 to 33.");
   int num = 3;
-    int cummulation = 0;
-    cummulation = num * num + cummulation
-    System.out.println("Cummulation: " + cummulation + " : " + num + " * " + num);
-    num = num +3;
-    cummulation = num * num + cummulation
-    System.out.println("Cummulation: " + cummulation+ " : " + num + " * " + num);
-    num = num +3;
-    cummulation = num * num + cummulation
-    System.out.println("Cummulation: " + cummulation + " : " + num + " * " + num);
-    num = num +3;
-    cummulation = num * num + cummulation
-   
-    System.out.println("Cumulation result:");
-  
-  ///add something
-  ///added something
+  int cummulation = 9;
+  while (num <= 33) {
+	    // System.out.printf("Cummulation: " + cummulation + " : " + num + " * " + num);
+	  	System.out.printf("\nCummulation result: %-6d : %4d %4s %4d", cummulation, num, '*', num);
+	  	num = num +3;
+	     if(num <= 33) {
+	     cummulation = num * num + cummulation;}
+	     else break;
+	   }
+  System.out.println("\nThe SUM of Square of multiples of 3 is " + cummulation);
+  }
 }
-}
+
