@@ -4,13 +4,17 @@ public class SumSquare {
     System.out.println("Your program will generate an output of Sum of Squares of multiples of 3"
                        + "\nfrom 3 to 33.");
   int num = 3;
-    System.out.println("Cummulation: " + (num * num) + " : " + num + " * " + num);
+    int cummulation = 0;
+    cummulation = num * num + cummulation
+    System.out.println("Cummulation: " + cummulation + " : " + num + " * " + num);
     num = num +3;
-    System.out.println("Cummulation: " + (num * num) + " : " + num + " * " + num);
+    cummulation = num * num + cummulation
+    System.out.println("Cummulation: " + cummulation+ " : " + num + " * " + num);
     num = num +3;
-    System.out.println("Cummulation: " + (num * num) + " : " + num + " * " + num);
+    cummulation = num * num + cummulation
+    System.out.println("Cummulation: " + cummulation + " : " + num + " * " + num);
     num = num +3;
-    
+    cummulation = num * num + cummulation
    
     System.out.println("Cumulation result:");
   
