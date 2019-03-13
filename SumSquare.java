@@ -6,7 +6,6 @@ public class SumSquare {
   int num = 3;
   int cummulation = 9;
   while (num <= 33) {
-	    // System.out.printf("Cummulation: " + cummulation + " : " + num + " * " + num);
 	  	System.out.printf("\nCummulation result: %-6d : %4d %4s %4d", cummulation, num, '*', num);
 	  	num = num +3;
 	     if(num <= 33) {
